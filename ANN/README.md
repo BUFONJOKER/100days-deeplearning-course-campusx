@@ -4,35 +4,6 @@
 This folder contains **step-by-step Jupyter notebooks** covering **Artificial Neural Networks (ANN)** concepts, starting from the basic perceptron to advanced optimization and regularization techniques.  
 The notebooks focus on **theory + intuition + practical implementation using Python and Keras**.
 
----
-
-## 📂 Folder Structure
-
-```
-
-ANN/
-│
-├── 01_perceptron_trick.ipynb
-├── 02_loss_function_perceptron.ipynb
-├── 03_problem_with_perceptron.ipynb
-├── 04_customer_churn_prediction.ipynb
-├── 05_handwrittendigits_classification.ipynb
-├── 06_graduate_admission_regression.ipynb
-├── 07_batch_vs_stochastic_gradient_descent.ipynb
-├── 08_vanishing_gradient_problem.ipynb
-├── 09_early_stopping.ipynb
-├── 10_feature_scaling.ipynb
-├── 11_dropout_layer_classification.ipynb
-├── 12_dropout_layer_regression.ipynb
-├── 13_regularization.ipynb
-├── 14_zero_weight_initialization.ipynb
-├── 15_zero_point5__weight_initialization.ipynb
-├── 16_xavier_normal_weight_initialization.ipynb
-├── 17_he_normal_he_uniform_glorot_uniform_normal_weight_initialization.ipynb
-├── 18_batch_normaliztion.ipynb
-└── 19_exponentially_weighted_moving_average.ipynb
-
-```
 
 ---
 
