@@ -3,7 +3,29 @@
 
 # 📘 CampusX – 100 Days of Deep Learning
 
-This repository contains my **hands-on practice and implementations** from the **CampusX 100 Days of Deep Learning** course.
+## Repository Description
+
+This repository is a comprehensive collection of **36 hands-on Jupyter notebooks** covering the complete curriculum of the **CampusX 100 Days of Deep Learning** course. It serves as both a learning resource and a practical implementation guide for understanding deep learning concepts from fundamentals to advanced architectures.
+
+**Key Highlights:**
+- 📚 **36 Progressive Notebooks** covering Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Transformers
+- 🎯 **Structured Learning Path** starting from basic perceptrons to modern transformer architectures
+- ☁️ **Colab-Ready** - All notebooks are optimized for execution in Google Colab without local GPU requirements
+- 🔬 **Theory + Practice** - Each notebook combines mathematical concepts with practical TensorFlow/Keras implementations
+- 📊 **Real-World Projects** - Includes hands-on applications like customer churn prediction, image classification, and sentiment analysis
+- 📖 **Comprehensive Documentation** - Every notebook includes detailed explanations, visualizations, and learning outcomes
+
+**Use Cases:**
+- Students transitioning from machine learning to deep learning
+- Practitioners seeking hands-on deep learning experience
+- Anyone looking for a structured, project-based learning path in modern AI
+- Researchers exploring different neural network architectures
+
+---
+
+## About This Repository
+
+This repository contains **hands-on practice and implementations** from the **CampusX 100 Days of Deep Learning** course.
 Every topic/chapter has its own **Jupyter Notebook (`.ipynb`)** which can be run directly in **Google Colab**.
 
 ---
