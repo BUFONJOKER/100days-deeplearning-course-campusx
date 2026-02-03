@@ -62,7 +62,98 @@ Every topic/chapter has its own **Jupyter Notebook (`.ipynb`)** which can be run
 
 ---
 
+## 📁 Repository Structure
 
+### **Root Directory**
+```
+100days-deeplearning-course-campusx/
+├── main.ipynb                    # Main entry point notebook
+├── README.md                     # Project documentation
+├── 01-ANN/                       # Artificial Neural Networks
+├── 02-CNN/                       # Convolutional Neural Networks
+├── 03-RNN/                       # Recurrent Neural Networks
+└── 04-Transformers/             # Transformer Models
+```
+
+### **01-ANN/ - Artificial Neural Networks (19 notebooks)**
+
+Comprehensive coverage of foundational neural network concepts and techniques:
+
+| Notebook | Description |
+|----------|-------------|
+| `01-perceptron-trick.ipynb` | Introduction to perceptron and the perceptron trick algorithm |
+| `02-loss-function-perceptron.ipynb` | Understanding loss functions in perceptron learning |
+| `03-problem-with-perceptron.ipynb` | Limitations of perceptron and why we need multi-layer networks |
+| `04-customer-churn-prediction.ipynb` | Real-world ANN application for customer churn prediction |
+| `05-handwrittendigits-classification.ipynb` | MNIST dataset classification using ANN |
+| `06-graduate-admission-regression.ipynb` | Regression task using neural networks |
+| `07-batch-vs-stochastic-gradient-descent.ipynb` | Comparison of batch and stochastic gradient descent |
+| `08-vanishing-gradient-problem.ipynb` | Understanding vanishing gradient problem and solutions |
+| `09-early-stopping.ipynb` | Preventing overfitting using early stopping |
+| `10-feature-scaling.ipynb` | Importance of feature normalization and scaling |
+| `11-dropout-layer-classification.ipynb` | Dropout regularization for classification tasks |
+| `12-dropout-layer-regression.ipynb` | Dropout regularization for regression tasks |
+| `13-regularization.ipynb` | L1 and L2 regularization techniques |
+| `14-zero-weight-initialization.ipynb` | Issues with zero weight initialization |
+| `15-zero-point5--weight-initialization.ipynb` | Small constant weight initialization |
+| `16-xavier-normal-weight-initialization.ipynb` | Xavier/Glorot uniform weight initialization |
+| `17-he-normal-he-uniform-glorot-uniform-normal-weight-initialization.ipynb` | He and Glorot initialization methods |
+| `18-batch-normaliztion.ipynb` | Batch normalization for stable training |
+| `19-exponentially-weighted-moving-average.ipynb` | EWMA and adaptive learning rate algorithms |
+
+**Key Topics:** Perceptrons, MLPs, Loss Functions, Gradient Descent, Regularization, Weight Initialization, Batch Normalization, Optimization
+
+---
+
+### **02-CNN/ - Convolutional Neural Networks (12 notebooks)**
+
+Deep dive into convolutional networks for image processing and computer vision:
+
+| Notebook | Description |
+|----------|-------------|
+| `20-padding.ipynb` | Padding strategies in convolutions (same, valid) |
+| `21-pooling.ipynb` | Max pooling and average pooling operations |
+| `22-lenet-architecture.ipynb` | Classic LeNet architecture implementation |
+| `23-dog-vs-cat-cnn-classification.ipynb` | CNN for binary image classification |
+| `24-data-augmentation.ipynb` | Data augmentation techniques for improved generalization |
+| `25-pretrained-models.ipynb` | Using pre-trained models (VGG, ResNet, etc.) |
+| `26-transfer-learning-feature-extraction.ipynb` | Transfer learning using feature extraction |
+| `27-transfer-learning-feature-extraction-data-augmentation.ipynb` | Combining transfer learning with data augmentation |
+| `28-transfer-learning-fine-tunning.ipynb` | Fine-tuning pre-trained models |
+| `29-keras-functional-api-single-input-multiple-output.ipynb` | Multi-output model architecture |
+| `30-keras-functional-api-multiple-input-single-output.ipynb` | Multi-input model architecture |
+| `31-keras-functional-model-transfer-learning.ipynb` | Transfer learning with functional API |
+
+**Key Topics:** Convolutions, Pooling, LeNet, Padding, Data Augmentation, Transfer Learning, Fine-tuning, Functional API, Pre-trained Models
+
+---
+
+### **03-RNN/ - Recurrent Neural Networks (4 notebooks)**
+
+Understanding sequential data processing with recurrent architectures:
+
+| Notebook | Description |
+|----------|-------------|
+| `32-rnn-architecture.ipynb` | RNN fundamentals and architecture |
+| `33-integer-encoding-simple-rnn.ipynb` | Integer encoding and basic RNN implementation |
+| `34-sentimental-analysis-embedding.ipynb` | Sentiment analysis with word embeddings |
+| `35-deep-rnn.ipynb` | Deep RNN architectures with multiple layers |
+
+**Key Topics:** RNN Architecture, Sequence Processing, Word Embeddings, Sentiment Analysis, Deep RNNs, LSTM, GRU
+
+---
+
+### **04-Transformers/ - Transformer Models (1 notebook)**
+
+Introduction to modern transformer architectures:
+
+| Notebook | Description |
+|----------|-------------|
+| `36-text-classification.ipynb` | Text classification using transformer models |
+
+**Key Topics:** Transformers, Attention Mechanism, BERT, GPT, Text Classification
+
+---
 
 ## 🛠 Tech Stack
 

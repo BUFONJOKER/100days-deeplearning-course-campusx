@@ -9,60 +9,76 @@ These files are part of my **deep learning learning journey** and are implemente
 
 ## 📘 Notebook Details
 
-### 🔹 32_rnn_architecture.ipynb
+### 🔹 32-rnn-architecture.ipynb
 
-📌 **Topic:** RNN Architecture Basics
+**Topic:** RNN Architecture Basics
 
-**What this notebook covers:**
+**Content Covered:**
+* What is a Recurrent Neural Network (RNN) and how it differs from ANN/CNN
+* Processing sequential data with temporal dependencies
+* Concept of hidden states and time steps
+* RNN architectures: Many-to-one, One-to-many, Many-to-many
+* Forward propagation through time (FPTT)
+* Backpropagation through time (BPTT)
 
-* What is a Recurrent Neural Network (RNN)
-* Difference between ANN, CNN, and RNN
-* How RNN handles sequential data
-* Concept of hidden state and time steps
-* Many-to-one, one-to-many, many-to-many architectures
-
-🎯 **Goal:**
-Understand how RNNs work internally and why they are used for sequence data like text and time series.
-
----
-
-### 🔹 33_integer_encoding_simple_rnn.ipynb
-
-📌 **Topic:** Integer Encoding + Simple RNN
-
-**What this notebook covers:**
-
-* Text preprocessing basics
-* Integer encoding of text sequences
-* Padding sequences
-* Building a **SimpleRNN model** in Keras
-* Model training and prediction
-
-🧠 **Concepts Learned:**
-
-* Why text must be converted to numbers
-* How SimpleRNN processes sequences
-* Input shape requirements for RNNs
+**Learning Outcome:** Understand how RNNs work internally and why they are ideal for sequence data.
 
 ---
 
-### 🔹 34_sentimental_analysis_embedding.ipynb
+### 🔹 33-integer-encoding-simple-rnn.ipynb
 
-📌 **Topic:** Sentiment Analysis using Embeddings
+**Topic:** Integer Encoding + Simple RNN Implementation
 
-**What this notebook covers:**
-
-* Text cleaning and preprocessing
-* Tokenization and vocabulary creation
-* Using **Embedding layer** in Keras
-* Sentiment classification (Positive / Negative)
+**Content Covered:**
+* Text preprocessing and cleaning
+* Integer encoding of text sequences for RNN input
+* Sequence padding and truncation
+* Building a SimpleRNN model in Keras
 * Training and evaluating the model
+* Making predictions on new sequences
 
-🚀 **Key Learning:**
+**Key Concepts:**
+* Why text must be converted to numerical format
+* How SimpleRNN processes sequences step-by-step
+* Input shape requirements and configuration for RNNs
 
-* Difference between integer encoding and embeddings
-* How embeddings capture semantic meaning
-* End-to-end NLP pipeline with RNN
+**Learning Outcome:** Implement a basic RNN model for sequence processing tasks.
+
+---
+
+### 🔹 34-sentimental-analysis-embedding.ipynb
+
+**Topic:** Sentiment Analysis using Word Embeddings
+
+**Content Covered:**
+* Text cleaning and preprocessing techniques
+* Tokenization and vocabulary creation
+* Using Embedding layers in Keras for dense word representations
+* Building a sentiment classification model
+* Positive/Negative sentiment classification
+* Model training and evaluation metrics
+
+**Key Learning Points:**
+* Difference between one-hot encoding and embeddings
+* How embeddings capture semantic and syntactic meaning
+* End-to-end NLP pipeline implementation with RNN
+* Practical sentiment classification workflow
+
+**Learning Outcome:** Build production-ready sentiment analysis models with embeddings and RNNs.
+
+---
+
+### 🔹 35-deep-rnn.ipynb
+
+**Topic:** Deep RNN Architectures with Multiple Layers
+
+**Content Covered:**
+* Stacking multiple RNN layers for complex sequence modeling
+* LSTM (Long Short-Term Memory) networks
+* GRU (Gated Recurrent Units)
+* Advantages of deep RNNs over shallow architectures
+* Training deep sequential models
+* Advanced sequence prediction tasks
 
 ---
 

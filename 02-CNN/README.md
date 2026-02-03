@@ -27,22 +27,43 @@ It covers **core CNN concepts, classic architectures, transfer learning, data au
 
 ---
 
-## 📓 Notebooks Overview
+## 📓 Detailed Notebooks Overview
 
-| No. | Notebook | Description |
-|----|---------|-------------|
-| 20 | `20_padding.ipynb` | Understanding padding types and effects |
-| 21 | `21_pooling.ipynb` | Max pooling & average pooling |
-| 22 | `22_lenet_architecture.ipynb` | Implementation of LeNet CNN |
-| 23 | `23_dog_vs_cat_cnn_classification.ipynb` | Binary image classification |
-| 24 | `24_data_augmentation.ipynb` | Improving generalization using augmentation |
-| 25 | `25_pretrained_models.ipynb` | Using pretrained CNN models |
-| 26 | `26_transfer_learning_feature_extraction.ipynb` | Transfer learning (feature extraction) |
-| 27 | `27_transfer_learning_feature_extraction_data_augmentation.ipynb` | Feature extraction + augmentation |
-| 28 | `28_transfer_learning_fine_tunning.ipynb` | Fine-tuning pretrained models |
-| 29 | `29_keras_functional_api_single_input_multiple_output.ipynb` | Functional API (multi-output) |
-| 30 | `30_keras_functional_api_multiple_input_single_output.ipynb` | Functional API (multi-input) |
-| 31 | `31_keras_functional_model_transfer_learning.ipynb` | Transfer learning with Functional API |
+### **20-padding.ipynb**
+Understanding padding types (`same`, `valid`) in convolution operations and their effects on feature maps.
+
+### **21-pooling.ipynb**
+Exploring max pooling and average pooling operations for downsampling and feature extraction.
+
+### **22-lenet-architecture.ipynb**
+Implementation of the classic LeNet-5 CNN architecture, a foundational convolutional neural network.
+
+### **23-dog-vs-cat-cnn-classification.ipynb**
+Binary image classification project using CNN to distinguish between dogs and cats in images.
+
+### **24-data-augmentation.ipynb**
+Techniques for data augmentation (rotation, flip, zoom) to improve model generalization and reduce overfitting.
+
+### **25-pretrained-models.ipynb**
+Using pre-trained CNN models (VGG, ResNet, MobileNet) for transfer learning applications.
+
+### **26-transfer-learning-feature-extraction.ipynb**
+Transfer learning approach using feature extraction from pre-trained models without fine-tuning.
+
+### **27-transfer-learning-feature-extraction-data-augmentation.ipynb**
+Combining transfer learning with data augmentation techniques for better performance.
+
+### **28-transfer-learning-fine-tunning.ipynb**
+Fine-tuning pre-trained models by unfreezing layers and retraining on custom datasets.
+
+### **29-keras-functional-api-single-input-multiple-output.ipynb**
+Building multi-output CNN models using Keras Functional API for diverse prediction tasks.
+
+### **30-keras-functional-api-multiple-input-single-output.ipynb**
+Building multi-input CNN models using Keras Functional API for complex input scenarios.
+
+### **31-keras-functional-model-transfer-learning.ipynb**
+Implementing transfer learning with Keras Functional API for advanced model architectures.
 
 ---
 
